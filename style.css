@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body{
+      background-color:  #E5E5E5;
+      font-family: 'Poppins';
+      max-width: 1920px;
+      width: 100%;
+      height: 100vh;  
+  }
+
+  header{
+      width: 100%;
+      height: 80px;
+      background-color: #FFF;
+  }
+
+  .headerContent{
+      width: 1080px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .roundedField{
+    width: 320px;
+    height: 56px;
+    background-color: #D9D2CF;
+    border-radius: 100px;  
+    border: none;  
+    padding: 14px; 
+    font-size: 18px;
+    font-weight: 400;
+    color: #757270;
+  }
+
+  .container{
+      max-width: 1080px;
+      width: 100%;
+      height: 100vh;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 32px auto 0;
+  }
+  
+  .infoContainer{
+      max-width: 816px;
+      width: 100%;
+      max-height: 240px;
+      height: 100%;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      position: relative;
+  }
+
+  .infoBox{
+      border-radius: 32px; 
+  }
+  .topCardsBox{
+      display: flex;
+      position: absolute; 
+      bottom: 0;  
+      align-items: center;  
+      width: 100%;
+      justify-content: space-evenly;
+  }
+
+  .recordsBox{
+      width: 360px;
+      height: 160px;
+      background-color:#FFFFFF;
+      opacity: 0.9;
+      border-radius: 32px;
+      
+  }
+
+  .priceBox{
+      width: 360px;
+      height: 160px;
+      background-color: #FFFFFF ;
+      opacity: 0.9;
+      border-radius: 32px;
+  }
+
+  .infoText{
+      padding: 24px;
+  }
+  h5{
+      font-size: 18px;
+      font-weight: 700;
+  }
+  p{
+      font-weight: 400;
+      font-size: 14px;
+      text-align: justify;
+  }
+
+  .recordsNumber{
+      display: flex;
+      justify-content: center;  
+  }
+
+  .NumPedido{
+     font-size: 24px;
+     font-weight: 700;
+     margin-left: 15px;
+  }
+
+  .priceNumber{
+    display: flex;
+    justify-content: center;
+  }
+      
+  .totalPedido{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+  }
+
+  .line{
+      width: 1080px;
+      height: 1px;
+      background-color: #111111;
+      margin-top: 48px;
+  }
+
+  .addButtons{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 24px; 
+      width: 816px;     
+  }
+
+  .roundedButton{
+      width: 360px;
+      height: 40px;
+      background-color: #006B5C;
+      border: none;
+      border-radius: 100px;
+      color:#FBFAFA;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+  }
+
+  .roundedButton img{
+      margin-right: 10px;
+}
+  
+  .vegetablesContainer{
+      width: 100%;
+      min-height: 380px;
+      margin-top: 56px;
+  }
+  
+  .titleName{
+      font-size: 36px;
+      font-weight: 700;
+      color: #111111;
+  }
+
+  .imgFormat{
+      margin-left: 20px;
+  }
+
+  .threeBox{
+      width: 100%;
+      height: 380px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 32px;
+  }
+
+  .cardBox{
+      width: 340px;
+      height: 380px;
+      background-color: #FBFAFA;
+      border-radius: 32px;
+  }
+
+  .cardContainer{
+      max-width: 320px;
+      width: 100%;
+      max-height: 360px;
+      height: 100%;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;      
+  }
+
+  .cardBg{
+      width: 100%;
+      height: 160px;
+      border-radius: 25px;
+      background-color: tomato;
+      background-image: url(./background_modal\ 1.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+   .vegetableImage{
+       width: 100px;
+       height: 100px;
+       border: 2px solid white;
+       border-radius: 100%;
+       background-color:white;  
+       margin: 0 20px;  
+  }
+
+  h2{
+      font-size: 36px;
+      font-weight: 700;
+      color:#FBFAFA;
+      margin-top: 16px;
+  }
+
+  .cardText{
+      width: 100%;
+      height: 124px;
+      border-radius: 16px;
+      padding: 0 18px;
+  }
+
+  h3{
+      font-size: 16px;
+      font-weight: 700;
+      color:black;
+      margin-bottom: 16px;
+  }
+
+  .cardIcons{
+      width: 100%;
+      height: 32px;
+      background-color: yellowgreen;
+      border-radius: 16px;
+  }
+
+  .iconsBox{
+      background-color: blue;
+      width: 72px;
+      margin-left: 10px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .deleteIcon{
+      width: 32px;
+      height: 32px;
+      background-color: #DB4444;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .editIcon{
+      width: 32px;
+      height: 32px;
+      background-color: #757270;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  } 
+
+
+
+
+  
