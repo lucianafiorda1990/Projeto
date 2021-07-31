@@ -42,7 +42,7 @@
   .container{
       max-width: 1080px;
       width: 100%;
-      height: 100vh;
+      min-height: 100vh;
       margin-top: 32px;
       display: flex;
       flex-direction: column;
@@ -234,7 +234,7 @@
       width: 100%;
       height: 124px;
       border-radius: 16px;
-      padding: 0 18px;
+      padding: 0 16px;
   }
 
   h3{
@@ -247,12 +247,12 @@
   .cardIcons{
       width: 100%;
       height: 32px;
-      background-color: yellowgreen;
       border-radius: 16px;
+      display: flex;
+      justify-content: space-between;
   }
 
   .iconsBox{
-      background-color: blue;
       width: 72px;
       margin-left: 10px;
       display: flex;
@@ -278,6 +278,24 @@
       justify-content: center;
       align-items: center;
   } 
+
+  .cardInfo{
+      margin-right: 24px;
+  }
+
+  .bottomText{
+      font-size: 12px;
+  }
+
+  .bottomPrice{
+      color: #006b5c;
+      font-size: 24px;
+      font-weight: 700;
+  }
+
+
+
+  
 
 
 
